@@ -1,12 +1,33 @@
-h1  {
-  text-align: center;
+#banner {
+  width: 100%;
+}
+.principal{
+  background-color: #CCCCCC;
+  padding: 30px;
 }
 
+.titulo-principal {
+  padding-left: 20px;
+}
 p {
   text-align: center;
-  
 }
 
 #missao {
-font-size: 28px;
+  font-size: 28px;
+
 }
+
+.texto-centralizado {
+  text-align: center;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.imagem-beneficio {
+  width: 50%;
+}
+
