@@ -13,7 +13,7 @@ p {
   text-align: center;
 }
 
-em strong{
+em strong {
   color: red;
 }
 
@@ -30,7 +30,6 @@ em strong{
   padding: 20px;
   background-color: #ffffff;
 }
-
 ul{
   display: inline-block;
   vertical-align: top;
@@ -45,4 +44,3 @@ ul{
 .imagem-beneficio {
   width: 50%;
 }
-

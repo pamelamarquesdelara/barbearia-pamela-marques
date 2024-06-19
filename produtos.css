@@ -2,26 +2,24 @@ header{
   background-color: #BBBBBB;
   padding: 20px 0;
 }
-
-.caixa {
- width: 940px; 
+.caixa{
+  width: 940px;
   position: relative;
   margin: 0 auto;
 }
-
 nav {
   position: absolute;
-  top: 110px;
+  top: 110;
   right: 0;
 }
-  
-  nav li{
+nav li {
   display: inline;
-    margin-left: 15px;
-  }
+  margin-left: 15px;
+}
 
-nav a{
-color: #000000;
+
+nav a {
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -29,16 +27,27 @@ color: #000000;
 }
 
 nav a:hover{
-  color: #C78C19;
+  color: #c78c19;
   text-decoration: underline;
 }
 
 .produtos{
-  width: 940;
+  width: 940px;
   margin: 0 auto;
   padding: 50px;
 }
-
+.produtos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.produto-descricao{
+  font-size: 18px;
+}
+.produto-preco{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 48px 0;
+}
 .produtos li{
   display: inline-block;
   border: 1px solid #000000;
@@ -52,7 +61,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-  border-color: #C78C19;
+  border-color: #c78c19;
 }
 
 .produtos li:hover h2{
@@ -60,17 +69,28 @@ nav a:hover{
 }
 
 .produtos li:active{
-  border-color: #088c19;
+  border-color: #088c19
 }
 
 footer{
   background: url("bg.jpg");
   text-align: center;
-  padding: 40px 0;
+  padding: 48px 0;
 }
-
-.copyright{
-  color: #ffffff;
+.copyright {
+  color: #FFFFFF;
   font-size: 13px;
   margin-top: 20px;
+}
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
