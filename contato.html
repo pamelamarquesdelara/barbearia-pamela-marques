@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 
-  <html>
+<html>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link href="reset.css" rel="stylesheet" />
-    <link href="produtos.css" rel="stylesheet" />
-    <title> Contato - Barbearia Pamela</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="reset.css" rel="stylesheet" />
+  <link href="produtos.css" rel="stylesheet" />
+  <title> Contato - Barbearia Pamela</title>
 
-  </head>
+</head>
 
-  <body>
-    <header>
-      <div class="caixa">
+<body>
+  <header>
+    <div class="caixa">
       <h1> <img src="logo.png"> </h1>
 
       <nav>
@@ -23,40 +23,74 @@
           <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
-      </div>
+    </div>
 
-    </header>
-    <main>
-     <form>
-       <label for="nomeSobrenome"> Nome e Sobrenome </label>
+  </header>
+  <main>
+    <form>
+      <label for="nomeSobrenome"> Nome e Sobrenome </label>
       <input type="text" id="NomeSobrenome" class="input-padrao" required>
 
-       <label for="email"> Email </label>
-       <input type="email" id="email" class="input-padrao" required
-         placeholder="XXXXXXXX@GMAIL" required>
+      <label for="email"> Email </label>
+      <input type="email" id="email" class="input-padrao" placeholder="XXXXXX@gmail.com" required>
 
-       <label for="telefone"> Telefone </label>
-        <input type="tel" id="telefone" class="input-padrao"
-          placeholder="(41) XXXXXXXXXXX">
+      <label for="telefone"> Telefone </label>
+      <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) X XXXX-XXXX" required>
 
-       <label for="mensagem">Deixe aqui sua mensagem</label>
-       <textarea cols="30" rows="5" id="mensagem" class="input-padrao"placeholder="qual é o seu elogio a nosso estabelecimento?"></textarea>
-       <fieldset>
-      <legend>como prefere o nosso contato?</legend>  
-        <label><input type="radio">Email</label>
-         <label><input type="radio">Telefone</label>
-         <label><input type="radio">Whatssap </label>
+      <label for="mensagem">Deixe aqui sua mensagem</label>
+      <textarea cols="30" rows="5" id="mensagem" class="input-padrao"
+        placeholder="qual seu elogio ao nosso estabelecimento">
+     </textarea>
+
+      <fieldset>
+        <legend>Como prefere o nosso contato?</legend>
+        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
 
       </fieldset>
+      <fieldset>
+        <legend>qual horario você prefere ser atendido?</legend>
+        <select>
+          <option>Manha</option>
+          <option>Tarde </option>
+          <option>Noite</option>
+        </select>
+      </fieldset>
+
+      <label> <input type="checkbox" class="checkbox" checked>Gostaria de receber nossas ofertas por email?</label>
 
 
-       <input type="submit" value="Enviar Formulário" class="enviar">
-     </form>
-    </main>
-    <footer>
+      <input class='enviar' classtype="submit" value="Enviar o formulario" required>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Hórario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>segunda</td>
+          <td>8h - 20h</td>
+        </tr>
+        <tr>
+          <td>quarta</td>
+          <td>8h - 20h</td>
+        </tr>
+        <tr>
+          <td>Sexta </td>
+          <td>8h - 20h</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <footer>
     <img src="logo-branco.png">
-      <p class="copyrights Barbearia Alura - 2019"></p>
-    </footer>
-  </body>
+    <p class="copyrights Barbearia Alura - 2019"></p>
+  </footer>
+</body>
 
-  </html>
+</html>
+  
