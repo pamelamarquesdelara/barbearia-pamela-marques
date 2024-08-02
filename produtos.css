@@ -84,8 +84,7 @@ footer{
 }
 
 main{
-  width: 940px;
-  margin: 0 auto;
+  background: linear-gradient(#FEFEFE, #888888);
 }
 
 .input-padrao{
@@ -136,9 +135,10 @@ th, td {
   width: 100%;
 }
 .principal{
-  background-color: #FEFEFE;
   padding: 1em 0;
-  margin: 0 aulto:
+  width: 940px;
+  margin: 0 auto;
+  
 }
 
 .titulo-principal {
@@ -155,7 +155,9 @@ th, td {
 
 .beneficios{
   padding: 20px;
-  background-color: #ffffff;
+  width: 940px;
+  margin: 0 auto;
+
 }
 ul{
   display: inline-block;
